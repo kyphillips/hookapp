@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { PersonScore } from './PersonScore';
-
+import BudgetItems from './BudgetItems';
+//only thing changed here was call BudgetItems
 function App() {
   return (
     <div className="App">
-      <PersonScore />
+      <BudgetItems />
     </div>
   );
 }
